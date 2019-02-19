@@ -29,6 +29,7 @@ public class PersonaDAO {
         boolean respuesta = false;
         try {            
             //Realice un cambio
+            //Realice otro cambio 
             Logger.getLogger(PersonaDAO.class.getName()).log(Level.INFO, "Ejecutando crearPersona...");
             
             pstmt = con.prepareStatement("INSERT INTO persona "
